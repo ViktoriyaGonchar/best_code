@@ -4,7 +4,7 @@
 
 **Best Code** is a free library of ready-made, tested code snippets for developers. Copy and paste solutions in 7 programming languages: JavaScript, Python, Java, C++, PHP, Ruby, Go.
 
-![Banner](images\best_code.png)
+ ![Banner](images\best_code.png)
 
 ## Features
 
