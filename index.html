@@ -704,6 +704,7 @@
             <li class="nav-item active" data-location="0" data-translate="nav.0">Best Code</li>
             <li class="nav-item" data-location="1" data-translate="nav.1">Share Code Here!</li>
             <li class="nav-item" data-location="2" data-translate="nav.2">Documentation</li>
+            <li class="nav-item" onclick="window.location.href='best_code2/best_code2.html'">Konstryktor</li>
         </ul>
     </nav>
 
@@ -1184,6 +1185,10 @@ func main() {
             const navItems = document.querySelectorAll('.nav-item');
             navItems.forEach(item => {
                 item.addEventListener('click', () => {
+                    // Skip items without data-location (external links)
+                    if (!item.dataset.location) {
+                        return;
+                    }
                     const location = parseInt(item.dataset.location);
                     showLocation(location);
                 });
