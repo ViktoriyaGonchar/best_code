@@ -90,7 +90,7 @@ No server installation or additional dependencies required.
 
 ## Author
 
-vgorganization2025
+Made by Viktoriya Gonchar
 
 ## License
 
